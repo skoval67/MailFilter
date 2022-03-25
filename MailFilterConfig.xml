@@ -1,0 +1,11 @@
+<?xml version="1.0" ?> 
+<BlackListConfig>
+
+  <arm name="lexx" ipaddress="192.168.1.34" />
+  <arm name="vaio" ipaddress="192.168.1.2" />
+
+  <group name="CN=Type4Arms,CN=Users,DC=example,DC=com" type="Type4Arms"/>
+  <group name="CN=mlAllowSend2Internet,CN=Users,DC=example,DC=com" type="AllowSend2Internet" />
+  <group email="" type="SecurityAudit" />
+  
+</BlackListConfig>
